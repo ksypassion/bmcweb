@@ -67,7 +67,7 @@ inline void addSecurityHeaders(crow::Response& res)
                       "img-src 'self' data:; "
                       "font-src 'self'; "
                       "style-src 'self'; "
-                      "script-src 'self'; "
+                      "script-src 'self' 'unsafe-eval'; "
                       "connect-src 'self' wss:; "
                       "form-action 'none'; "
                       "frame-ancestors 'none'; "
